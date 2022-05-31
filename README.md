@@ -3,7 +3,7 @@ In this Repository you can find defferent Web Temps for yourself
 
 -----------------------------------------------------------------------------
 
-You can training or use this templetes for your site and if you have idea say me ... i made it. <br/>
+You can practice with these templetes or use of these templetes for your site and if you have idea say me ... i made it. <br/>
 So if temp have any problem or bug just text me ... i fixed it ;) 
 
 -----------------------------------------------------------------------------
