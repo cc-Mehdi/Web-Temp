@@ -8,7 +8,7 @@ So if temp have any problem or bug just text me ... i fixed it ;)
 
 -----------------------------------------------------------------------------
 
-Created by Mehdi Gholami
+Created by Mehdi Gholami <br/>
 cc-Mehdi
 cc.MehdiGholami@gmail.com
 Instagram : Mehdi.h.8325
