@@ -3,14 +3,14 @@ In this Repository you can find defferent Web Temps for yourself
 
 -----------------------------------------------------------------------------
 
-You can training or use this templetes for your site and if you have idea say me ... i made it.
+You can training or use this templetes for your site and if you have idea say me ... i made it. <br/>
 So if temp have any problem or bug just text me ... i fixed it ;) 
 
 -----------------------------------------------------------------------------
 
 Created by Mehdi Gholami <br/>
-cc-Mehdi
-cc.MehdiGholami@gmail.com
-Instagram : Mehdi.h.8325
-Twitter : cc-MehdiGh
-Youtube : CodeClub
+cc-Mehdi <br/>
+cc.MehdiGholami@gmail.com <br/>
+Instagram : Mehdi.h.8325 <br/>
+Twitter : cc-MehdiGh <br/>
+Youtube : CodeClub <br/>
