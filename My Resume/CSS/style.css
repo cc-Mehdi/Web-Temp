@@ -1,0 +1,720 @@
+@import url("font.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    box-sizing: border-box;
+    font-family: Vazirmatn, sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+:root {
+    --red: #ed145b;
+    --blue: #3391ff;
+    --primary: rgb(0 86 179);
+    --gray: rgb(175, 175, 175)
+}
+
+/* HomePage */
+
+.navbar {
+    z-index: 1;
+}
+
+.navbar-brand {
+    left: 15%;
+    top: 0;
+}
+
+.navbar-brand-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.nav-item {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.nav-item:nth-child(1) {
+    padding: 0 20px;
+    border-radius: 10px;
+    transition: box-shadow .8s;
+}
+
+.nav-item:nth-child(1):hover {
+    box-shadow: 0 0 10px var(--red);
+}
+
+.nav-link {
+    text-align: center;
+    border-radius: 10px;
+    transition: color .5s, border-bottom .3s;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--red) !important;
+}
+
+.nav-link:focus {
+    color: var(--red) !important;
+}
+
+.homePage {
+    background-image: url("../Images/home-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInfo {
+    text-align: center;
+}
+
+.lblMyName {
+    color: white;
+    font-size: 2vw;
+}
+
+.socialMedia {
+    margin: 50px 0
+}
+
+.socialMediaIcon {
+    padding: 15px;
+    font-size: 25px;
+    color: #961313;
+    transition: color .5s;
+}
+
+.socialMediaIcon:hover {
+    color: var(--blue);
+    text-shadow: 0 0 2px var(--blue);
+}
+
+.btnMyResume, .btnEmployment {
+    margin: 0 20px;
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #eee;
+    background-color: var(--red);
+    border: none;
+    transition: color .5s, background-color .5s;
+}
+
+.btnMyResume:hover, .btnEmployment:hover {
+    background-color: #b9144b;
+}
+
+/* End Home Page */
+/* About Page */
+
+.aboutMePage {
+    background-color: rgb(24 26 27);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding-top: 50px;
+}
+
+.aboutMePage-label {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.aboutMePage-Title {
+    font-size: 40px;
+}
+
+.aboutMePage-Title::after {
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    content: '|';
+    color: #b9144b;
+}
+
+.aboutMePage-info {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.info-skills, .info-image, .info-details {
+    width: 100%;
+    height: 480px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.info-details {
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoDetails-lblMyName {
+    padding: 3% 0;
+    color: rgb(221 217 217);
+    font-size: 22px;
+}
+
+.infoDetails-lblMyDetail {
+    font-size: 18px;
+    text-align: right;
+    width: 350px;
+}
+
+.infoImage-myImage {
+    width: 350px;
+    height: 420px;
+    margin-top: 20px;
+    background-image: url("../Images/22f240b6-92e8-4283-9e74-39332290289a");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.info-skills {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.infoSkills-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.infoSkills-skills {
+    width: 350px;
+    height: 350px;
+}
+
+.infoSkills-skill {
+    margin-bottom: 30px;
+}
+
+.infoSkills-skillValue {
+    position: relative;
+    right: 329px;
+}
+
+.infoSkills-skillProgress {
+    background-color: transparent;
+    border: 1px gray solid;
+    height: 10px;
+}
+
+/* End About Page */
+/* Specialties Page */
+
+.specialtiesPage-specialties {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: scale(.9);
+}
+
+.specialties-specialty {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 10px 5px black;
+}
+
+.specialty-title {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--gray);
+    font-size: 22px;
+}
+
+.specialty-title::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 3px solid #b9144b;
+    border-right: 3px solid #b9144b;
+    transition: width .5s, height .5s;
+}
+
+.specialty-title::after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #b9144b;
+    border-left: 3px solid #b9144b;
+    transition: width .5s, height .5s;
+}
+
+#specialties-specialty:hover #specialty-title::before {
+    width: 130px;
+    height: 30px;
+    border-top: 3px solid gray;
+    border-right: 3px solid gray;
+}
+
+#specialties-specialty:hover #specialty-title::after {
+    width: 130px;
+    height: 30px;
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+}
+
+/* End Specialties Page */
+/* Services Page */
+
+.servicesPage-services {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-service {
+    width: 400px;
+    height: 350px;
+    margin: 15px;
+    border: 1px solid rgb(49, 54, 56);
+    cursor: pointer;
+}
+
+.service-items {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    align-content: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.service-items::after {
+    width: 0;
+    height: 0;
+    content: '';
+    position: relative;
+    bottom: 53px;
+    left: -168px;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid rgb(49, 54, 56);
+}
+
+.serviceItem-iconBox {
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s, background-color .5s;
+    transform: rotate(45deg);
+}
+
+.serviceItem-icon {
+    font-size: 38px;
+    color: var(--red);
+    transition: transform .5s, color .5s;
+    transform: rotate(-45deg);
+}
+
+#services-service1:hover #serviceItem-iconBox1 {
+    background-color: var(--red);
+    transform: rotate(0deg);
+}
+
+#services-service1:hover #serviceItem-icon1 {
+    color: #eee;
+    transform: rotate(0deg);
+}
+
+#services-service2:hover #serviceItem-iconBox2 {
+    background-color: var(--red);
+    transform: rotate(0deg);
+}
+
+#services-service2:hover #serviceItem-icon2 {
+    color: #eee;
+    transform: rotate(0deg);
+}
+
+#services-service3:hover #serviceItem-iconBox3 {
+    background-color: var(--red);
+    transform: rotate(0deg);
+}
+
+#services-service3:hover #serviceItem-icon3 {
+    color: #eee;
+    transform: rotate(0deg);
+}
+
+#services-service4:hover #serviceItem-iconBox4 {
+    background-color: var(--red);
+    transform: rotate(0deg);
+}
+
+#services-service4:hover #serviceItem-icon4 {
+    color: #eee;
+    transform: rotate(0deg);
+}
+
+#services-service5:hover #serviceItem-iconBox5 {
+    background-color: var(--red);
+    transform: rotate(0deg);
+}
+
+#services-service5:hover #serviceItem-icon5 {
+    color: #eee;
+    transform: rotate(0deg);
+}
+
+
+.serviceItem-titleBox {
+    width: 80%;
+    text-align: right;
+}
+
+.serviceItem-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceItem-title::after {
+    content: '';
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    margin-top: 10px;
+    background-color: var(--red);
+    transition: width .5s;
+}
+
+#services-service1:hover #serviceItem-title1::after {
+    width: 100%;
+}
+
+#services-service2:hover #serviceItem-title2::after {
+    width: 100%;
+}
+
+#services-service3:hover #serviceItem-title3::after {
+    width: 100%;
+}
+
+#services-service4:hover #serviceItem-title4::after {
+    width: 100%;
+}
+
+#services-service5:hover #serviceItem-title5::after {
+    width: 100%;
+}
+
+#services-service6:hover #serviceItem-title6::after {
+    width: 100%;
+}
+
+.serviceItem-descriptionBox {
+    text-align: right;
+    width: 90%;
+    padding: 10px;
+}
+
+.serviceItem-description {
+    color: var(--gray);
+    font-size: 18px;
+    word-spacing: 1ch;
+}
+
+/* End Services Page */
+/* ContactMe Page */
+
+.contactMePage-items {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.messageMe-lblText {
+    color: var(--gray);
+    font-size: 30px;
+    width: 100%;
+    height: fit-content;
+    text-align: right;
+}
+
+.contactMePage-messageMe {
+    width: 50%;
+    background-color: rgb(27 30 31);
+    padding: 6% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    border-radius: 15px;
+    float: right;
+}
+
+.messageMe-form {
+    text-align: right;
+    font-size: 20px;
+}
+
+.messageMe-form label {
+    color: var(--gray) !important;
+    margin: 10px;
+}
+
+.messageMe-form input, .messageMe-form textarea {
+    background-color: #181a1b;
+    border: 1px solid #2c2d2b;
+    margin: 5px;
+    transition: border .3s;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.messageMe-form textarea {
+    height: 120px;
+    transition: height .5s;
+}
+
+.messageMe-form input:focus, .messageMe-form textarea:focus {
+    box-shadow: none;
+    background-color: #181a1b;
+    border: 1px solid var(--primary);
+}
+
+.messageMe-form .btnSendMessage {
+    font-size: 20px;
+    background-color: var(--red);
+    border: none;
+    padding: 5px 15px;
+}
+
+.contactMePage-myInfo {
+    width: 30%;
+    height: 400px;
+    background-color: #bc0e47;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    float: right;
+}
+
+.myInfo-lblText {
+    width: 100%;
+    height: fit-content;
+    text-align: right;
+    margin: 40px;
+    font-size: 32px;
+}
+
+.myInfo-phoneBox {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.myInfo-phoneBox i {
+    float: right;
+    font-size: 22px;
+    padding-right: 40px;
+}
+
+.myInfo-lblPhone {
+    float: right;
+    margin: 10px;
+    text-align: right;
+}
+
+.myInfo-lblEmail:nth-child(3) {
+    padding-right: 83px;
+    width: 80%;
+}
+
+/* End ContactMe Page */
+/* Footer Page */
+
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(17, 19, 19);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.footer-logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px 0;
+}
+
+.footer-descriptionBox{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-description {
+    font-size: 16px;
+}
+
+.footer-socialsBox {
+    display: flex;
+}
+
+.socialsBox-socialBox {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1a1c1d;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 23px;
+    transition: background-color .5s, transform .5s;
+}
+
+.socialsBox-socialBox:hover {
+    background-color: var(--red);
+    transform: rotate(0);
+}
+
+.socialsBox-socialBox a {
+    transform: rotate(-45deg);
+    transition: transform .5s;
+}
+
+.socialsBox-socialBox i {
+    color: #ada69c;
+    font-size: 22px;
+}
+
+.socialsBox-socialBox:hover .socialBox-socialIcon {
+    transform: rotate(0);
+}
+
+.footer-lblCopyRight {
+    margin: 10px 0;
+}
+
+
+/* End Footer Page */
+
+/* Responsive Options */
+
+@media screen and (max-width: 1500px) {
+    .aboutMePage-info {
+        transform: scale(.8);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .lblMyName {
+        font-size: 5vw;
+    }
+
+    .aboutMePage-info {
+        flex-wrap: wrap;
+        transform: scale(1);
+    }
+
+    .contactMePage-messageMe, .contactMePage-myInfo, .infoDetails-lblMyDetail {
+        width: 100%;
+    }
+
+    .contactMePage-messageMe {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info-image {
+        display: none;
+    }
+
+    .specialties-specialty {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .lblMyName {
+        font-size: 7vw;
+    }
+
+    header {
+        transform: scale(1);
+    }
+
+    h1, h2, h3, h4, h5, h6, p, label, input, button, i::before {
+        transform: scale(.8);
+    }
+
+    html {
+        width: 107%;
+    }
+
+    .specialties-specialty {
+        width: 100%;
+    }
+
+    .service-items::after {
+        display: none;
+    }
+}
