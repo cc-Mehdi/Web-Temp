@@ -124,7 +124,7 @@ div.formField-leftSide, div.formField-rightSide {
 
 .formField-chFieldName {
     cursor: pointer;
-    filter: invert(5%) hue-rotate(180deg) brightness(1.7)
+    filter: invert(5%) hue-rotate(180deg) brightness(1.7);
 }
 
 .formField-lblFieldName:last-child {
@@ -153,10 +153,16 @@ div.formField-rightSide {
 }
 
 @media screen and (max-width: 978px) {
-    div.container-login{
+    div.container-login, div.container-poster{
         width: 100%;
     }
-    div.container-poster {
-        display: none;
+
+    div.container-poster{
+        margin-bottom: 20px;
+        min-height: 200px;
+    }
+
+    div.container {
+        flex-direction: column;
     }
 }
