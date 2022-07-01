@@ -11,7 +11,7 @@ So if temp have any problem or bug just text me ... i fixed it ;)
 Created by Mehdi Gholami <br/>
 cc-Mehdi <br/>
 cc.MehdiGholami@gmail.com <br/>
-Instagram : Mehdi.h.8325 <br/>
-Twitter : cc-MehdiGh <br/>
-Youtube : CodeClub <br/>
+Instagram : https://instagram.com/Mehdi.h.8325 <br/>
+Twitter : https://twitter.com/cc-MehdiGh <br/>
+Youtube : https://youtube.com/CodeClub <br/>
  
