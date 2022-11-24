@@ -10,7 +10,7 @@
 
 ## General Info
 ### This project is a practice for skill up in frontend.
-### Also I added backend with ASP.Net Core 6 to this web template after complete this web template, you can see the completed project in "WebSites" repository in my github.
+### Also I added backend with ASP.Net Core 6 to this web template after complete this web template, you can see the completed project in ["WebSites"](https://github.com/cc-Mehdi/WebSites) repository in my github.
 
 ## Technologies
 Project is created with :
