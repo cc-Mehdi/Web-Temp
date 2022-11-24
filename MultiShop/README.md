@@ -1,6 +1,7 @@
 # MultiShop - Shoping Web Site
 
 ### A shoping web site created with HTML5, CSS3, SASS, JavaScript, Bootstrap v5.2 for frontend.
+![Home Page](./Images/HomePage.jpg)
 
 ## Table Of Contents
 * [General Info](#general-info)
@@ -16,6 +17,7 @@ Project is created with :
 * HTML5
 * CSS3
 * SASS
+* JavaScript
 * Bootstrap v5.2
 
 ## Setup
@@ -23,3 +25,7 @@ To run this project, just download or clone this folder (MultiShop folder) on yo
 ```
 $ git clone https://github.com/cc-Mehdi/Web-Temp/tree/master/MultiShop.git
 ```
+
+## Features
+* Full responsive in all pages
+* Use clean code
