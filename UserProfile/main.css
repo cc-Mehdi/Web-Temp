@@ -1,0 +1,20 @@
+
+:root {
+    --primary: #2f00ff;
+    --primaryTwo: #9900ff;
+    --white: #eee;
+    --black: #333;
+    --gray: #cccbc8;
+
+    --font-xl: 48px;
+    --font-lg: 32px;
+    --font-md: 22px;
+    --font-sm: 14px;
+    --font-xs: 9px;
+
+    --window-xl: 1200px;
+    --window-lg: 992px;
+    --window-md: 768px;
+    --window-sm: 576px;
+    --window-xs: 300px;
+}

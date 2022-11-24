@@ -1,0 +1,105 @@
+@import url("../main.css");
+
+html, body {
+    height: 100%;
+    background: rgb(2, 0, 29);
+    background: linear-gradient(135deg, rgba(2, 0, 29, 1) 30%, rgba(103, 9, 121, 1) 52%, rgba(0, 185, 255, 1) 81%);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container {
+    width: 90%;
+    height: 80%;
+    border-radius: 0 0 5% 5%;
+    overflow: auto;
+}
+
+.container-table {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0 0 5% 5%;
+    color: var(--color-yellow);
+}
+
+.containerTable-lblTitle {
+    width: 30%;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--color-red);
+}
+
+
+.container-table th:first-child {
+    width: 10%;
+}
+
+.containerTable-lblValue {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.11);
+    color: var(--color-orange);
+    transition: box-shadow .5s, transform .5s, color .5s;
+}
+
+.containerTable-lblValue:hover {
+    box-shadow: 0 10px 10px var(--color-red);
+    transform: translateY(-10px);
+    background-color: var(--color-purple);
+    color: var(--color-yellow);
+    font-weight: bolder;
+}
+
+.containerTable-lblValue:last-child:hover {
+    box-shadow:none;
+    transform: none;
+    font-weight: none;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.container-table > tbody > tr:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.tableValue-btnOption {
+    width: 30%;
+    height: 35px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: var(--color-orange);
+    box-shadow: 0 0 10px var(--color-orange) inset;
+}
+
+.tableValue-btnOption:hover {
+    box-shadow: 0 0 5px var(--color-orange);
+    background-color: rgba(255, 255, 255, 0.127);
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+    .containerTable-lblTitle:last-child {
+        display: none;
+    }
+
+    .containerTable-lblValue:last-child {
+        display: none;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    *[class *= "lbl"] {
+        font-size: var(--font-xs);
+    }
+}

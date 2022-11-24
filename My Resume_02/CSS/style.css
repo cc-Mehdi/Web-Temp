@@ -1,0 +1,243 @@
+@import url("../MainStyle.css");
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-white);
+}
+
+div.background-style {
+    width: 200px;
+    height: 200px;
+    background-color: var(--color-primary);
+    position: fixed;
+}
+
+div.background-style:nth-child(1) {
+    top: 0;
+    left: 0;
+    border-radius: 0 0 10px 0;
+}
+
+div.background-style:nth-child(2) {
+    right: 0;
+    bottom: 0;
+    border-radius: 10px 0 0 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.user {
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+div.user-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+}
+
+div.userAside-userInfo, div.userAside-userSocials, div.userMain-userInfo, div.userMain-userAbility {
+    background-color: white;
+    margin: 5px;
+}
+
+div.user-aside {
+    width: 40%;
+    height: 90%;
+}
+
+div.userInfo-imageBox, div.userInfo-infoBox, div.userInfo-connectionButtonsBox {
+    width: 100%;
+    text-align: center;
+}
+
+div.userAside-userInfo {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+img.userInfo-image {
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.userInfo-infoName {
+    font-weight: bold;
+    color: var(--color-primary-two);
+}
+
+div.userInfo-infoBox {
+    text-align: center;
+}
+
+.userInfo-info {
+    font-weight: normal;
+    margin: 0;
+    font-size: var(--font-sm);
+    color: var(--color-gray);
+}
+
+button.userInfo-btnFollow, button.userInfo-btnMessage {
+    width: 40%;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 40px;
+    border: 1px solid var(--color-gray);
+    outline: none;
+    background-color: var(--color-primary-two);
+    color: white;
+    cursor: pointer;
+}
+
+button.userInfo-btnMessage {
+    background-color: white;
+    color: var(--color-primary-two)
+}
+
+.userAside-userSocials {
+    padding: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userAside-userSocials .row {
+    width: 100%;
+}
+
+.userSocials-userSocialBox {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px 0 20px;
+    border-bottom: 1px solid rgb(241, 240, 240);
+}
+
+.userSocials-userSocialBox:last-child {
+    border: none;
+}
+
+.userSocial-leftSide, .userSocial-rightSide {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.userSocial-rightSide {
+    justify-content: flex-end;
+}
+
+.userSocial-socialIcon, .userSocial-socialName {
+    margin-right: 10px;
+    color: var(--color-primary-two);
+}
+
+.userSocial-socialId {
+    color: var(--color-gray);
+    font-size: var(--font-sm);
+}
+
+
+div.user-main {
+    width: 58%;
+    height: 400px;
+    margin: 0 10px;
+}
+
+.userMain-userInfo {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userMain-userInfoBox {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(241, 240, 240);
+    padding-top: 10px;
+}
+
+.userMain-userInfoBox:last-child {
+    border-bottom: none;
+}
+
+.userInfo-infoName:nth-child(2) {
+    color: black;
+    font-weight: normal;
+    font-size: var(--font-sm);
+    width: 20%;
+}
+
+.userMain-userAbilities {
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+}
+
+.userAbility-leftSide, .userAbility-rightSide {
+    width: 48%;
+    height: 350px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.userAbility-lblTitle {
+    color: var(--color-primary-two);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.userAbility-abilityBox {
+    margin: 20px 0;
+}
+
+.userAbility-abilityName {
+    color: var(--color-gray);
+}
+
+.userAbility-abilityBox .progress, .userAbility-abilityValue {
+    width: 100%;
+    height: 10px;
+}
+
+@media screen and (max-width: 1280px){
+    .user-aside, .user-main {
+        width: 100% !important;
+    }
+
+    .userMain-userInfo {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .userAbility-leftSide, .userAbility-rightSide {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+}

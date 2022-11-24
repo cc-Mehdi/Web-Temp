@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Nanum+Gothic&family=Open+Sans:wght@300&family=Rubik+Moonrocks&display=swap');
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-red: #FF4949;
+    --color-purple: #541690;
+    --color-orange: #FF8D29;
+    --color-yellow: #FFCD38;
+
+    --font-lg: 38px;
+    --font-md: 24px;
+    --font-sm: 15px;
+    --font-xs: 9px;
+
+    --size-lg: 1280px;
+    --size-md: 976px;
+    --size-sm: 768px;
+    --size-xs: 500px;
+}

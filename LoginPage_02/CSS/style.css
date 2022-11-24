@@ -1,0 +1,168 @@
+@import url("../main.css");
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.container {
+    width: 70%;
+    height: 80%;
+    border-radius: 5px;
+    display: flex;
+}
+
+div.container-poster, div.container-login {
+    width: 50%;
+    height: 100%;
+}
+
+div.container-poster {
+    background: url("https://www.offidocs.com/images/manguyalone.jpg") no-repeat center;
+    background-size: cover;
+}
+
+div.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.containerLogin-header {
+    width: 90%;
+    display: flex;
+}
+
+div.loginHeader-leftSide, div.loginHeader-rightSide {
+    width: 50%;
+}
+
+.loginHeader-title {
+    font-size: var(--font-md);
+    font-weight: 900;
+}
+
+div.loginHeader-rightSide {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a.loginHeader-socialIconBox {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+    color: var(--color-gray);
+    font-size: 18px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.containerLogin-main {
+    width: 90%;
+    margin: 20px 0;
+}
+
+div.loginMain-formBox, .loginMain-form, div.mainForm-fieldBox {
+    width: 100%;
+}
+
+.loginMain-form, div.mainForm-fieldBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.formField-lblFieldName {
+    font-size: var(--font-sm);
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.formField-txtFieldName {
+    width: 98%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 10px;
+    font-size: var(--font-sm);
+    font-weight: bolder;
+    outline: none;
+}
+
+.mainForm-btnLogin {
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+div.mainForm-fieldBox:nth-child(4) {
+    flex-direction: row;
+}
+
+div.formField-leftSide, div.formField-rightSide {
+    width: 50%;
+}
+
+.formField-chFieldName {
+    cursor: pointer;
+    filter: invert(5%) hue-rotate(180deg) brightness(1.7);
+}
+
+.formField-lblFieldName:last-child {
+    color: var(--color-primary);
+}
+
+div.formField-rightSide {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formField-lblForget {
+    color: var(--color-gray);
+}
+
+.mainForm-registerBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-gray);
+    margin: 20px 0;
+}
+
+.mainForm-registerBox a {
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 978px) {
+    div.container-login, div.container-poster{
+        width: 100%;
+    }
+
+    div.container-poster{
+        margin-bottom: 20px;
+        min-height: 200px;
+    }
+
+    div.container {
+        flex-direction: column;
+    }
+}

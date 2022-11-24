@@ -1,0 +1,24 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #4358f2;
+    --color-primary-two: #222c73;
+    --color-white: #eee;
+    --color-black: #333;
+    --color-gray: rgb(187, 184, 184);
+
+    --font-lg: 38px;
+    --font-md: 24px;
+    --font-sm: 15px;
+    --font-xs: 9px;
+
+    --size-lg: 1280px;
+    --size-md: 976px;
+    --size-sm: 768px;
+    --size-xs: 500px;
+}
