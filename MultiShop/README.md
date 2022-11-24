@@ -29,3 +29,9 @@ $ git clone https://github.com/cc-Mehdi/Web-Temp/tree/master/MultiShop.git
 ## Features
 * Full responsive in all pages
 * Use clean code
+
+---
+
+> [cc.MehdiGholami@gmail.com](cc.MehdiGholami@gmail.com) &nbsp;&middot;&nbsp;
+> GitHub [@cc-Mehdi](https://github.com/cc-Mehdi) &nbsp;&middot;&nbsp;
+> Twitter [@cc_MehdiGh](https://twitter.com/cc_mehdigh)
