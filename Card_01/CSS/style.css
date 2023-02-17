@@ -1,0 +1,46 @@
+:root{
+    --primary-color: cyan;
+}
+
+.card {
+    background-color: transparent;
+    box-shadow: 0 0 5px 5px var(--primary-color);
+    border-color: var(--primary-color);
+    margin: 10px;
+    transition: transform .5s;
+}
+
+.card-imageBox, .card-opacity, .card {
+    width: 280px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.card-opacity {
+    background-color: var(--primary-color);
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    height: 0px;
+    transition: height .5s;
+}
+
+
+.card-content {
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card:hover .card-opacity {
+    height: 250px;
+    opacity: .9;
+}
+
+.card:hover .card-content{
+    display: block;
+}
