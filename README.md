@@ -1,5 +1,5 @@
 # Web-Temp
-In this Repository you can find defferent Web Temps for yourself
+In this Repository you can find different Web Temps for yourself
 
 -----------------------------------------------------------------------------
 
