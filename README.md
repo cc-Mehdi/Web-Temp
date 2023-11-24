@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/cc-Mehdi/Web-Temp)
+
 # Web-Temp
 In this Repository you can find different Web Temps for yourself
 
