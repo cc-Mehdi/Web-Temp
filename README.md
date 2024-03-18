@@ -11,7 +11,7 @@ So if temp have any problem or bug just text me ... i fixed it ;)
 
 
 ---
-### Mehdi Gholami (WEB) : 
+### Mehdi Gholami : 
 > Gmail [cc.MehdiGholami@gmail.com](cc.MehdiGholami@gmail.com) &nbsp;&middot;&nbsp;
 > GitHub [@cc-Mehdi](https://github.com/cc-Mehdi) &nbsp;&middot;&nbsp;
 > Twitter [@cc_MehdiGh](https://twitter.com/cc_mehdigh)
